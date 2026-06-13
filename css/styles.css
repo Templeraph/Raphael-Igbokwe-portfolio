@@ -8,10 +8,10 @@
 /* ================= GLOBAL ================= */
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
+    font-family:Arial, Helvetica, sans-serif;
     color: #333;
-    background-color: rgb(238, 207, 154);
+    background-color:black;
+    
 
 
 }
@@ -47,17 +47,19 @@ h2 {
     align-items: center;
     padding: 15px 20px;
     background: #0f172a;
-    color: white;
+    color: rgb(151, 191, 243);
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1000;
-
+    
 }
-
+.logo{
+    font-weight: 900;
+}
 /* HAMBURGER */
 .hamburger {
-    font-size: 28px;
+    font-size: 30px;
     cursor: pointer;
     display: none;
     /* hidden on desktop */
@@ -66,14 +68,15 @@ h2 {
 .mobile-menu a {
 
     text-decoration: none;
-    color: #f1f5f9;
+    color: #93bde7;
     padding: 10px;
     border-radius: 8px;
     transition: 0.3s;
+    font-size: 20px;
 }
 
 .mobile-menu a:hover {
-    background: #38bdf8;
+    background: #ffffff;
     color: #0f172a;
 }
 
@@ -129,7 +132,18 @@ h2 {
     gap: 30px;
     align-items: center;
 }
-
+.about-container p:nth-child(1){
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.about-container p:nth-child(2){
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.about-container p:nth-child(3){
+    font-size: 18px;
+    margin-bottom: 15px;
+}
 .about-image img {
     height: 300px;
     width: 300px;
